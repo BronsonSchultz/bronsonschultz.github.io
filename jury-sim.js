@@ -1,1 +1,1 @@
-console.log("Hello World!")
+document.getElementById("test").innerHTML = "Hello World!"
