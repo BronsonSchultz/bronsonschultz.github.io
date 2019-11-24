@@ -1,1 +1,8 @@
-document.getElementById("test").innerHTML = "Writeen by an external js file"
+
+function increase(n){
+	n += 1
+	console.log(n)
+	document.getElementById("nOut").innerHTML = n.value
+}
+
+
