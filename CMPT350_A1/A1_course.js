@@ -5,9 +5,29 @@ var tutDates = [[13,15,16,20,22,23,27,29,30], [3,5,6,10,12,13,24,26,27], [2,4,5,
 var monthNames = ["January", "February", "March", "April"]
 
 function makeTable(table_id){
+	var table = document.createElement("table"),
+		row = table.insertRow();
+	
+	table.border = "1px";
+	table.width = "50%"
+	lecRow = table.insertRow(0);
+	lecRow.rowSpan = "34";
+	
+	lecCell = lecRow.insertCell(0);
+	lecCell.innerHTML = "Lectures"
+	
 	for (var i = 0; i < lecDates.length; i++){
-		document.getElementById(table_id).innerHTML = lecDates[i]
+		var month = monthNames[i];
+		
+		for (var j=0; j < lecDates[i].length; j++){
+			var cell = row.insertCell();
+			cell.innerHTML = month + " " + lecDates[i][j];
+			row = table.insertRow(); // every month is on the same row
+		}
+		
 	}
+	
+	document.getElementById("time_table").appendChild(table)
 }
 
-makeTable("time_info")
+makeTable("time_table")
