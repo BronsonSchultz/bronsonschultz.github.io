@@ -5,12 +5,51 @@
 	</head>
 	
 	<body>
-		<h1>CMPT 350 Locations and Times</h1>
+		<h1>CMPT 350 Times and Dates</h1>
+		<p>Click on the times to see the locations!</p>
 		
-		<div id="time_table">
-			<div id="Lec_info" class="popup">
-			</div>
+		<div class="popup" onclick="showLecLoc()">
+			<span id="myPopup">ARTS 134</span>
 		</div>
+		
+		<table id="time_table">
+			<div id="lecture">
+				<tr>
+					<th rowspan="3">Lectures</th>
+					<td>Mondays, Wednesdays, and Fridays</td>
+				</tr>
+				
+				<tr>
+					<td>12:30pm - 1:20pm</td>
+				</tr>
+				
+				<tr>
+					<td>January 6th - April 6th</td>
+				</tr>
+			</div>
+			
+			<div id="tutorial">
+			<tr>
+				<th rowspan="5">Tutorials</th>
+			</tr>
+			
+			<tr>
+				<td>Mondays: 3:30pm-4:20pm</td>
+			</tr>
+			
+			<tr>
+				<td>Wednesdays: 10:30am-11:20am</td>
+			</tr>
+			
+			<tr>
+				<td>Wednesdays: 4:30pm-5:20pm</td>
+			</tr>
+			
+			<tr>
+				<td>Thursdays: 9:00am-9:50am</td>
+			</tr>
+			</div>
+		</table>
 		
 		<script src="A1_course.js"></script>
 	</body>
