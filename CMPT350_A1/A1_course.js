@@ -1,5 +1,6 @@
-function showLoc(){
-	document.getElementById("lecture")
+function showLecLoc(){
+	var popup = document.getElementById("myPopup")
+	popup.classList.toggle("show")
 }
 
-makeTable("time_table")
+
