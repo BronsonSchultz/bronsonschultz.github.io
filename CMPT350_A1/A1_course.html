@@ -9,12 +9,13 @@
 		<h1>CMPT 350 Times and Dates</h1>
 		<p>Click on the times to see the locations!</p>
 		
-		<div class="popup" onclick="showLecLoc()">foo
+	<!--	<div class="popup" onclick="showLecLoc()">foo
 			<span class="popuptext" id="myPopup">ARTS Building Room 134</span>
 		</div>
-		
+		-->
 		<table id="time_table">
-			<div id="lecture">
+		
+			<div id="lecture" class="popup" onclick="showLecLoc()">
 				<tr>
 					<th rowspan="3">Lectures</th>
 					<td>Mondays, Wednesdays, and Fridays</td>
@@ -27,6 +28,8 @@
 				<tr>
 					<td>January 6th - April 6th</td>
 				</tr>
+				
+				<span class="popuptext" id="myPopup">Arts Building: Room 134</span>
 			</div>
 			
 			<div id="tutorial">

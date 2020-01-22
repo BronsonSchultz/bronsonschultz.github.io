@@ -1,6 +1,7 @@
 function showLecLoc(){
-	var popup = document.getElementById("myPopup")
-	popup.classList.toggle("show")
+	alert("foo");
+	var popup = document.getElementById("myPopup");
+	popup.classList.toggle("show");
 }
 
 
