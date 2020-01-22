@@ -21,8 +21,8 @@ function makeTable(table_id){
 		
 		for (var j=0; j < lecDates[i].length; j++){
 			var cell = row.insertCell();
-			cell.innerHTML = month + " " + lecDates[i][j];
-			row = table.insertRow(); // every month is on the same row
+			cell.innerHTML = month + " " + lecDates[i][j] + "th";
+			row = table.insertRow(); 
 		}
 		
 	}
@@ -39,7 +39,7 @@ function makeTable(table_id){
 		for (var j=0; j < tutDates[i].length; j++){
 			var cell = row.insertCell();
 
-			cell.innerHTML = month + " " + tutDates[i][j];
+			cell.innerHTML = month + " " + tutDates[i][j] + "th";
 			
 			cell.addEventListener("click", function() {
 				showLocAndTime()
