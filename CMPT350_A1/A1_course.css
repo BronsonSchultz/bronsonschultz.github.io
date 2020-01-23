@@ -1,8 +1,37 @@
-table {
-	
-	#border-collapse: collapse;
+#lecture {
+	background-color: #408D78;
 }
+
 #tutorial {
-	color: red;
-	
+	background-color: #b0ff00;
 }
+
+#image {
+	position: fixed;
+	right: 0;
+	height: 700px;
+	width: 50%;
+	border: 2px solid black;
+	background: url("campus-aerial-2017.jpg") no-repeat center;
+}
+
+h1, p {
+	font-family: arial, sans-serif;
+}
+
+
+table {
+	height: 40%;
+	position: fixed;
+	text-align: center;
+	width: 45%;
+	font-family: arial, sans-serif;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+td, th {
+	border: 1px solid black;
+	text-align: left;
+	padding: 8px;
+
