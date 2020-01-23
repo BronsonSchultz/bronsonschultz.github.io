@@ -1,7 +1,8 @@
 function showLecLoc(){
-	alert("foo");
-	var popup = document.getElementById("myPopup");
-	popup.classList.toggle("show");
+	alert("Arts Building: Room 134");
 }
 
+function showTutLoc(){
+	alert("Spinks Addition: Room S320");
+}
 
