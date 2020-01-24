@@ -69,8 +69,9 @@ table {
 	text-align: center;
 	width: 500px;
 	font-family: arial, sans-serif;
-	border: 5px black;
-	border-collapse: collapse;
+	#border: 5px black;
+	#border-collapse: collapse;
+	opacity: 80%;
 }
 
 td, th {
