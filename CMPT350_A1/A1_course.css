@@ -5,21 +5,23 @@ body {
 }
 
 #lecture {
-	background-color: #096a47;
+	background-color: #408000;
 }
 
 #tutorial {
-	background-color: #b0ff00;
+	background-color: #13e30b;
 }
 
 #image {
 	position: fixed;
-	top: 10%;
+	top: 100px;
 	height: 100%;
 	width: 100%;
 	background: url("campus-aerial-2017.jpg") no-repeat;
-	opacity: 50%;
+	opacity: 65%;
 	z-index: -1;
+	-webkit-filter: blur(6px);
+	filter: blur(6px);
 }
 
 .topBar {
@@ -56,15 +58,18 @@ body {
 }
 
 p {
-	font-size: 20px;
+	font-size: 22px;
+	width: 500px;
+	color: white;
 }
+
 table {
-	height: 40%;
+	height: 300px;
 	position: fixed;
 	text-align: center;
-	width: 45%;
+	width: 500px;
 	font-family: arial, sans-serif;
-	border: 1px solid black;
+	border: 5px black;
 	border-collapse: collapse;
 }
 
