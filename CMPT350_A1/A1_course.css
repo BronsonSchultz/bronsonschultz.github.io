@@ -1,5 +1,11 @@
+body {
+	margin: 0;
+	background: #d1d1e2;
+	font-family: arial, sans-serif;
+}	
+
 #lecture {
-	background-color: #408D78;
+	background-color: #096a47;
 }
 
 #tutorial {
@@ -8,6 +14,7 @@
 
 #image {
 	position: fixed;
+	top: 20%;
 	right: 0;
 	height: 700px;
 	width: 50%;
@@ -15,8 +22,16 @@
 	background: url("campus-aerial-2017.jpg") no-repeat center;
 }
 
-h1, p {
-	font-family: arial, sans-serif;
+.topBar {
+	background-color: #204000;
+}
+
+.topBar a {
+	color: #f2ffe6;
+	text-decoration: none;
+	text-align: center;
+	padding: 15px 20px;
+	font-size: 20px;
 }
 
 
