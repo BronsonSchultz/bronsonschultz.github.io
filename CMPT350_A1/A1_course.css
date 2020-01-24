@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	background: #d1d1e2;
 	font-family: arial, sans-serif;
-}	
+}
 
 #lecture {
 	background-color: #096a47;
@@ -14,27 +14,50 @@ body {
 
 #image {
 	position: fixed;
-	top: 20%;
-	right: 0;
-	height: 700px;
-	width: 50%;
-	border: 2px solid black;
-	background: url("campus-aerial-2017.jpg") no-repeat center;
+	top: 10%;
+	height: 100%;
+	width: 100%;
+	background: url("campus-aerial-2017.jpg") no-repeat;
+	opacity: 50%;
+	z-index: -1;
 }
 
 .topBar {
 	background-color: #204000;
+	height: 37px;
+}
+
+.topBar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.topBar li {
+	float: left;
+	text-decoration: none;
+	text-align: center;
 }
 
 .topBar a {
 	color: #f2ffe6;
 	text-decoration: none;
-	text-align: center;
-	padding: 15px 20px;
+	padding: 15px;
 	font-size: 20px;
 }
 
+.topBar a:hover:not(.active) {
+	background-color: #111;
+}
 
+.topBar .active {
+	color: #111;
+	background-color: #13e30b;
+}
+
+p {
+	font-size: 20px;
+}
 table {
 	height: 40%;
 	position: fixed;
@@ -49,4 +72,3 @@ td, th {
 	border: 1px solid black;
 	text-align: left;
 	padding: 8px;
-
