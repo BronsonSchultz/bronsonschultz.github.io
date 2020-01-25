@@ -1,15 +1,10 @@
+
 body {
 	margin: 0;
 	background: #d1d1e2;
-	font-family: "Arial Black", sans-serif;
-}
-
-#lecture {
-	background-color: #408000;
-}
-
-#tutorial {
-	background-color: #13e30b;
+	font-family: "Arial Black" sans-serif;
+  text-align: left;
+  font-size: 20px;
 }
 
 #image {
@@ -57,21 +52,16 @@ body {
 	background-color: #13e30b;
 }
 
-p {
-	font-size: 22px;
-	width: 500px;
-	color: white;
-}
-
 table {
 	height: 300px;
-	position: fixed;
 	text-align: center;
 	width: 500px;
 	font-family: arial, sans-serif;
-	#border: 5px black;
-	#border-collapse: collapse;
+	border: 5px black;
+	border-collapse: collapse;
 	opacity: 80%;
+	background-color: #408000;
+
 }
 
 td, th {
