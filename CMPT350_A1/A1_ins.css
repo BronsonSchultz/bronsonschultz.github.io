@@ -1,0 +1,58 @@
+
+body {
+	margin: 0;
+	background: #d1d1e2;
+	font-family: "Arial Black", Gadget, sans-serif;
+  text-align: left;
+  font-size: 20px;
+}
+
+#image {
+	position: fixed;
+	top: 100px;
+	height: 100%;
+	width: 100%;
+	background: url("campus-aerial-2017.jpg");
+	opacity: 65%;
+	z-index: -1;
+	-webkit-filter: blur(6px);
+	filter: blur(6px);
+}
+
+.topBar {
+	background-color: #204000;
+	height: 37px;
+}
+
+.topBar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.topBar li {
+	float: left;
+	text-decoration: none;
+	text-align: center;
+}
+
+.topBar a {
+	color: #f2ffe6;
+	text-decoration: none;
+	padding: 15px;
+	font-size: 20px;
+}
+
+.topBar a:hover:not(.active) {
+	background-color: #111;
+}
+
+.topBar .active {
+	color: #111;
+	background-color: #13e30b;
+}
+pre {
+	font-family: "Arial Black", Gadget, sans-serif;
+  text-align: left;
+  font-size: 20px;
+}
