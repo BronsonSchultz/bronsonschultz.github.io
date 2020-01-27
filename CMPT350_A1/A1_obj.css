@@ -27,6 +27,9 @@ h1 {
 .topBar {
 	background-color: #204000;
 	height: 37px;
+  overflow: hidden;
+  text-decoration: none;
+  text-shadow: none;
 }
 
 .topBar ul {
