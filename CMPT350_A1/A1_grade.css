@@ -1,10 +1,17 @@
-
 body {
 	margin: 0;
 	background: #d1d1e2;
 	font-family: Arial, sans-serif;
-  text-align: left;
   font-size: 20px;
+  color: white;
+  text-shadow: 2px 2px black;
+
+}
+h1 {
+	text-align: center;
+}
+p {
+	text-indent: 20px;
 }
 
 #image {
@@ -22,6 +29,9 @@ body {
 .topBar {
 	background-color: #204000;
 	height: 37px;
+  overflow: hidden;
+  text-decoration: none;
+  text-shadow: none;
 }
 
 .topBar ul {
@@ -55,6 +65,8 @@ body {
 table {
 	height: 300px;
 	text-align: center;
+	text-shadow: none;
+	color: black;
 	width: 500px;
 	font-family: arial, sans-serif;
 	border: 5px black;
