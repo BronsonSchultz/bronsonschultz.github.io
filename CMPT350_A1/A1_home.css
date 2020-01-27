@@ -1,13 +1,12 @@
-#textbooks {
-  list-style-type: none;
-}
-
 body {
 	margin: 0;
 	background: #d1d1e2;
-	font-family: "Arial Black", Gadget, sans-serif;
+	font-family: Arial, sans-serif;
   text-align: center;
   font-size: 20px;
+  color: white;
+  text-shadow: 2px 2px black;
+
 }
 
 img {
@@ -31,6 +30,9 @@ img {
 .topBar {
 	background-color: #204000;
 	height: 37px;
+  overflow: hidden;
+  text-decoration: none;
+  text-shadow: none;
 }
 
 .topBar ul {
@@ -41,11 +43,10 @@ img {
 
 .topBar li {
 	float: left;
-	text-decoration: none;
-	text-align: center;
 }
 
 .topBar a {
+  display: block;
 	color: #f2ffe6;
 	text-decoration: none;
 	padding: 15px;
@@ -64,4 +65,8 @@ img {
 p {
   margin: auto;
   width: 350px;
+}
+
+a {
+  text-shadow: none;
 }
