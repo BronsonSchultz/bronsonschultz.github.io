@@ -26,7 +26,8 @@ h1 {
 	top: 100px;
 	height: 100%;
 	width: 100%;
-	background: url("campus-aerial-2017.jpg");
+	background: url("campus-aerial-2017.jpg") center;
+	background-size: cover;
 	opacity: 65%;
 	z-index: -1;
 	-webkit-filter: blur(6px);
